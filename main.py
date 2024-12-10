@@ -21,4 +21,4 @@ def pdf_to_json(pdf_path, output_json_path):
     print(f"PDF convertido para JSON e salvo em {output_json_path}")
 
 # Exemplo de uso
-pdf_to_json("oi.pdf", "output.json")
+pdf_to_json("meta.pdf", "output.json")
