@@ -27,4 +27,4 @@ def docx_to_json(docx_path, output_json_path):
     print(f"Arquivo DOCX convertido para JSON e salvo em {output_json_path}")
 
 # Exemplo de uso
-docx_to_json("sdr-info.docx", "sdr-info.json")
+docx_to_json("workbook_prospeccao.docx", "workbook_prospeccao.json")

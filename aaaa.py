@@ -13,6 +13,6 @@ def xlsx_to_json(xlsx_file, json_file):
         json.dump(data_dict, f, ensure_ascii=False, indent=4)
 
 # Example usage
-xlsx_file = 'treinamento.xlsx'
-json_file = 'treinamento.json'
+xlsx_file = 'hipotesenicho.xlsx'
+json_file = 'hipotesenicho.json'
 xlsx_to_json(xlsx_file, json_file)

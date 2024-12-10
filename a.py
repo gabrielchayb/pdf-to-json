@@ -22,6 +22,6 @@ def pptx_to_json(pptx_file, json_file):
         json.dump(slides_data, f, ensure_ascii=False, indent=4)
 
 if __name__ == "__main__":
-    pptx_file = "cienciavendas.pptx"
-    json_file = "output.json"
+    pptx_file = "spinconsultores.pptx"
+    json_file = "spinconsultores.json"
     pptx_to_json(pptx_file, json_file)
